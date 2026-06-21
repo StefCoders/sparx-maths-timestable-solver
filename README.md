@@ -3,6 +3,7 @@
 A lightweight Chrome Extension that intercepts rendering hooks on the Sparx Maths platform to automatically display the solution to the active math problem during the **100 Club** game.
 
 <img width="1307" height="907" alt="image" src="https://github.com/user-attachments/assets/1fa09c90-7543-428c-a64e-e7b57cf61f52" />
+
 ## Installation Instructions
 
 1. **Download / Organize Files**
