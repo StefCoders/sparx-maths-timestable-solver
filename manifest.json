@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Sparx Maths - 100 Club Solver",
+  "version": "1.1",
+  "description": "Displays the answer of the current Hundred Club question on Sparx Maths",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.sparx-learning.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    }
+  ]
+}
